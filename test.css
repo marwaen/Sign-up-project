@@ -1,0 +1,134 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}  
+  /* position:absolute
+  without height
+  right:0px
+  left:0px
+  top:0px
+  bottom:0px
+  solution3:
+ float:right 
+ float:left
+ height:80vh or inherit
+ solution4: 
+ flexbox [a faire]
+ =======================
+ border-radius: 30px,0px,30px,0px
+
+  */
+  
+  body{
+  background-image: linear-gradient( to right, #5e63ff,#a34eff);
+  height: 100vh;
+ 
+  }
+  main{
+  width: 90%;
+  margin: 0px auto;
+ height: 85vh;
+ margin-top: 10vh;
+ box-shadow:  0px 0px 15px 15px #0000009c;
+ border-radius: 30px;
+ background-color: #fff;
+}
+#leftside{
+ background-image:linear-gradient(to right,#4f42d7,#2a7ed6) ;
+ height: 100%;
+ width: 30%;
+ float: left;
+ border-top-left-radius: 26px;
+ border-bottom-left-radius: 26px;
+ text-align: center;
+ padding: 40px 0px;
+}
+
+
+#leftside > h1{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 2em;
+ padding: 80px 20px 0px;
+ text-align: center;
+ color: #fff;
+}
+#leftside > p{
+ font-size:16px;
+ text-align: justify;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ color: #fff;
+ margin:35px
+}
+#leftside > a{
+ color: white;
+ border-radius: 20px;
+ text-decoration: none;
+ padding: 10px;
+ border: 1px solid blueviolet;
+ 
+
+}
+#rightside{
+ float: right;
+ height: 85%;
+ width: 70%;
+} 
+#rightside > form{
+text-align: center;
+} 
+#rightside  h1{
+color:rgb(175, 183, 190) ;
+font-weight: lighter;
+}
+img{
+vertical-align: middle;
+}
+.bord{
+  border: 1px solid lightgrey;
+  box-shadow: 3px 3px lightgray;
+  margin: 35px 20%;
+  padding: 20px;
+  
+}
+.input{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+  border-color:rgb(226, 172, 238);
+  margin: 20px 0px;
+  width:400px; 
+  padding: 10px;
+}
+#btn{
+padding: 10px 25px 10px 25px ;
+background-color: white;
+border-color: lightskyblue;
+}
+
+#checkbox{
+  margin: 10px;
+  color:rgb(175, 183, 190);
+}
+label{
+color:rgb(175, 183, 190)   ;
+font-size: small ;
+
+}
+#title{
+  margin-top: 40px;
+  color:rgb(175, 183, 190) ;
+  font-weight: lighter; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+#div{
+margin: 10px;
+font-size: 15px;
+color: rgb(175, 183, 190) ;
+}
+#btn:hover{
+background-color: rgb(191, 237, 255);
+}
+
